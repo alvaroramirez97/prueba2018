@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>COMIDA</title>
+        <link rel="icon" href="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png">
+        <!-- AUTOR ALVARO RAMIREZ NAVARRO 1º DAW -->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <style>
+            #contenido{
+                width: 90%;
+                background-color: beige;
+            }
+            form{
+                background-color: dodgerblue
+
+            }
+        </style>
+    </head>
+    <body>
+        <!-- BARRA DE NAVEGACION -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">COMIDA A TUS PIES</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a></li>
+
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Productos</a></li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Conocenos
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="contacto.html">Contacto</a></li>
+                            <li><a href="ubicacion.html">Localizacion</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <center>
+            <div id="contenido">
+                <br>
+                <h1>¡CONTACTA CON NOSOTROS!</h1>
+                <br>
+                <h3>Si necesitas cualquiera de nuestros servicios aquí tienes algunos metodos por los que ponerte en contacto con nosotros:</h3>
+                <br>
+                <br>
+                
+                <h4>Nuestro correo:</h4>
+                <a href="mailto:comida_a-tus-pies@gmail.com"><span class="glyphicon glyphicon-envelope"> comida_a-tus-pies@gmail.com </span></a>
+                <br>
+                <br>
+                
+                <h4>Nuestra direccion:</h4>
+                <span class="glyphicon glyphicon-search"></span>  C\Poligono de la comida   Nº 123
+                <br>
+                <br>
+                
+                <h4>FAX & TELEFONO</h4>
+                <span class="glyphicon glyphicon-print"></span>  689753212  /  926554383
+
+                <br>
+                <br>
+                <h3>Para cualquier otra cosa dejanos un mensaje:</h3>
+                <br>
+
+                <form action="" target="_blank" style="width: 50%">
+                    <br>
+                    <p><label for="nombre">Introduce tu nombre: </label><input type="text" name="nombre"></p>
+
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email" width="70%">
+
+                    <p>
+                        <label for="mensaje">Dejanos un mensaje: </label><br>
+                        <textarea name="mensaje"></textarea>
+                    </p>
+                    <input type="submit" value="Enviar la información">
+                    <br>
+                    <br>
+                </form>
+
+                <br>
+            </div>
+        </center>
+
+
+    </body>
+</html>
